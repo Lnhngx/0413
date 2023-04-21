@@ -182,7 +182,8 @@ html {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/banner_bg.jpg) no-repeat;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/banner_bg.jpg)
+    no-repeat;
   background-position: center center;
   background-size: cover;
 }
@@ -200,6 +201,7 @@ html {
 .InnerGIGABYTEContent .s01__subtitle {
   padding-bottom: 8%;
 }
+
 .InnerGIGABYTEContent .s01__title img,
 .InnerGIGABYTEContent .s01__subtitle img,
 .InnerGIGABYTEContent .s01__hardware-tag img {
@@ -208,7 +210,7 @@ html {
   margin: 0 auto;
 }
 .InnerGIGABYTEContent .s01__hardware-tag img {
-  max-width: 329px;
+  max-width: 250px;
 }
 .InnerGIGABYTEContent .s01__hardware img {
   display: block;
@@ -234,7 +236,8 @@ html {
 /* ------  s02  ------ */
 
 .InnerGIGABYTEContent .s03_s04 {
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/section02_bg.png) no-repeat;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/section02_bg.png)
+    no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -251,7 +254,7 @@ html {
 .InnerGIGABYTEContent .s03::-webkit-scrollbar {
   display: none;
 }
-.InnerGIGABYTEContent #s03__banner-content_02{
+.InnerGIGABYTEContent #s03__banner-content_02 {
   margin-bottom: 100px;
 }
 .InnerGIGABYTEContent .s03__bg {
@@ -259,7 +262,8 @@ html {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/banner_bg.jpg) no-repeat;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/banner_bg.jpg)
+    no-repeat;
   background-position: center center;
   background-size: cover;
 }
@@ -288,6 +292,7 @@ html {
 .InnerGIGABYTEContent .s03__prod img {
   display: block;
   width: 80%;
+  margin: 0 auto;
   transform: translate(1%, 0);
 }
 .InnerGIGABYTEContent .s03__desc {
@@ -306,8 +311,8 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border-bottom: 3px solid;
-  border-image: var(--main-blue-gradient) 1;
+  /* border-bottom: 3px solid; */
+  /* border-image: var(--main-blue-gradient) 1; */
 }
 .InnerGIGABYTEContent .s03__tab2-img {
   width: 100%;
@@ -316,7 +321,8 @@ html {
   border-radius: 15px;
   margin-top: 30px;
   margin-bottom: 15px;
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/compared.png) no-repeat;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/compared.png)
+    no-repeat;
   background-size: contain;
   background-position: center center;
 }
@@ -409,7 +415,7 @@ html {
   gap: 5px;
 }
 .InnerGIGABYTEContent .s04__tab-pane__div > * {
-  margin-right: 3px;
+  margin-right: 5px;
 }
 .InnerGIGABYTEContent .s04__tab-pane__div-1 {
   width: 15px;
@@ -513,7 +519,8 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/blue_gradient_bg.jpg) no-repeat;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/blue_gradient_bg.jpg)
+    no-repeat;
   background-position: center center;
   background-size: cover;
 }
@@ -601,28 +608,45 @@ html {
 }
 .InnerGIGABYTEContent .s05__tab-pane__inner-pane.active {
   display: block;
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/wave-bg.png);
-  background-size: cover;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/wave-bg.png)
+    no-repeat;
   border-radius: 20px;
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
+  overflow: hidden;
 }
 .InnerGIGABYTEContent .s05__tab-pane__04__tab-content {
   background: url(https://lnhngx.github.io/0413/innergigabyteimages2/s06_bg.png);
   border-radius: 20px;
   border: 0;
   text-align: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .InnerGIGABYTEContent .s05__tab-pane__03__tab-content {
   background: url(https://lnhngx.github.io/0413/innergigabyteimages2/s06_bg.png);
   border-radius: 20px;
   border: 0;
   text-align: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .InnerGIGABYTEContent .s06__tab-pane__inner-pane.active {
   background: url(https://lnhngx.github.io/0413/innergigabyteimages2/s06_bg.png);
   border: 0;
   text-align: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .InnerGIGABYTEContent .s05__tab-pane__02__tab,
 .InnerGIGABYTEContent .s05__tab-pane__03__tab {
@@ -646,7 +670,8 @@ html {
 .InnerGIGABYTEContent .s08__tab-pane__img01 {
   width: 100%;
   height: 50vw;
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/home_pc_img.png) no-repeat;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/home_pc_img.png)
+    no-repeat;
   background-size: auto 100%;
   object-fit: cover;
   background-position: center center;
@@ -656,7 +681,8 @@ html {
 .InnerGIGABYTEContent .s08__tab-pane__img02 {
   width: 100%;
   height: 50vw;
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/vertical_market_img.png) no-repeat;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/vertical_market_img.png)
+    no-repeat;
   background-size: 100% auto;
   object-fit: cover;
   background-position: center center;
@@ -738,7 +764,8 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/s06_bg.png) no-repeat;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/s06_bg.png)
+    no-repeat;
   background-position: center center;
   background-size: cover;
 }
@@ -806,7 +833,8 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/s06_bg.png) no-repeat;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/s06_bg.png)
+    no-repeat;
   transform: rotate(180deg);
   background-position: center center;
   background-size: cover;
@@ -848,7 +876,8 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/win_bg_mb.png) no-repeat;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/win_bg_mb.png)
+    no-repeat;
   background-position: center center;
   background-size: cover;
 }
@@ -907,7 +936,8 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/win_bg_02_pc.png) no-repeat;
+  background: url(https://lnhngx.github.io/0413/innergigabyteimages2/win_bg_02_pc.png)
+    no-repeat;
   background-position: center center;
   background-size: cover;
 }
@@ -983,7 +1013,7 @@ html {
   .InnerGIGABYTEContent .s03__desc span {
     font-size: 3.5rem;
   }
-  .InnerGIGABYTEContent #s03__banner-content_02{
+  .InnerGIGABYTEContent #s03__banner-content_02 {
     margin-bottom: 0px;
   }
 }
@@ -1004,6 +1034,18 @@ html {
   .InnerGIGABYTEContent .s01__banner-text-wrapper {
     width: 50%;
     padding-bottom: 0;
+  }
+  .InnerGIGABYTEContent .s01__hardware-tag {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+  }
+
+  .InnerGIGABYTEContent .s01__title img,
+  .InnerGIGABYTEContent .s01__subtitle img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
   }
   .InnerGIGABYTEContent .s01__title img,
   .InnerGIGABYTEContent .s01__subtitle img,
@@ -1029,6 +1071,8 @@ html {
     transform: translate(0, -14%);
   }
   .InnerGIGABYTEContent .s03__prod img {
+    margin: 0;
+    width: 100%;
     transform: translate(-2%, 0);
   }
   .InnerGIGABYTEContent .s03__tab2-img {
@@ -1048,19 +1092,25 @@ html {
 /* lg */
 @media (min-width: 992px) {
   .InnerGIGABYTEContent .container {
-    max-width: 960px;
+    max-width: 1200px !important;
   }
   .InnerGIGABYTEContent .container-fluid {
     max-width: 100%;
     padding-left: 5% !important;
     padding-right: 5% !important;
   }
-  .InnerGIGABYTEContent .s03 {
-    padding-bottom: 30px;
+  .InnerGIGABYTEContent .s01__banner-text-wrapper {
+    width: 60%;
+    padding-bottom: 0;
   }
-  /* .InnerGIGABYTEContent .s03__banner-content {
-    min-height: 100vh;
-  } */
+  .InnerGIGABYTEContent .s03 {
+    padding-bottom: 3%;
+    padding-top: 5%;
+  }
+  .InnerGIGABYTEContent .s03__banner-content {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
   .InnerGIGABYTEContent .s03__prod {
     padding-bottom: 20%;
     margin-bottom: -14%;
@@ -1176,7 +1226,8 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(https://lnhngx.github.io/0413/innergigabyteimages2/win_bg_pc.png) no-repeat;
+    background: url(https://lnhngx.github.io/0413/innergigabyteimages2/win_bg_pc.png)
+      no-repeat;
     background-position: center center;
     background-size: cover;
   }

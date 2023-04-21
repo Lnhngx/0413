@@ -1,14 +1,36 @@
 AOS.init({ duration: 800, easing: "ease-in-sine", delay: 50, once: !0 });
 
-$('.nav__01').click(function(){$('html,body').animate({scrollTop:$('.s01').offset().top}, 800);});
-$('.nav__02').click(function(){$('html,body').animate({scrollTop:$('#s03__banner-content_01').offset().top}, 800);});
-$('.nav__03').click(function(){$('html,body').animate({scrollTop:$('#s03__banner-content_02').offset().top}, 800);});
-$('.nav__04').click(function(){$('html,body').animate({scrollTop:$('.s04').offset().top}, 800);});
-$('.nav__05').click(function(){$('html,body').animate({scrollTop:$('.s05__tab-area').offset().top}, 800);});
+$(".nav__01").click(function () {
+  $("html,body").animate({ scrollTop: $(".s01").offset().top }, 800);
+});
+$(".nav__02").click(function () {
+  $("html,body").animate(
+    { scrollTop: $("#s03__banner-content_01").offset().top },
+    800
+  );
+});
+$(".nav__03").click(function () {
+  $("html,body").animate(
+    { scrollTop: $("#s03__banner-content_02").offset().top },
+    800
+  );
+});
+$(".nav__04").click(function () {
+  $("html,body").animate({ scrollTop: $(".s04").offset().top }, 800);
+});
+$(".nav__05").click(function () {
+  $("html,body").animate({ scrollTop: $(".s05__tab-area").offset().top }, 800);
+});
 // $('.nav__06').click(function(){$('html,body').animate({scrollTop:$('.s06__bg').offset().top}, 800);});
-$('.nav__07').click(function(){$('html,body').animate({scrollTop:$('.s07__bg').offset().top}, 800);});
-$('.nav__08').click(function(){$('html,body').animate({scrollTop:$('.s08__tab-area').offset().top}, 800);});
-$('.nav__09').click(function(){$('html,body').animate({scrollTop:$('.s09-scroll-pc').offset().top}, 800);});
+$(".nav__07").click(function () {
+  $("html,body").animate({ scrollTop: $(".s07__bg").offset().top }, 800);
+});
+$(".nav__08").click(function () {
+  $("html,body").animate({ scrollTop: $(".s08__tab-area").offset().top }, 800);
+});
+$(".nav__09").click(function () {
+  $("html,body").animate({ scrollTop: $(".s09-scroll-pc").offset().top }, 800);
+});
 
 let animating = false; // Flag to indicate if animation is in progress
 
@@ -59,7 +81,7 @@ const observer = new IntersectionObserver(function (entries, observer) {
       const percentage = parseInt(entry.target.getAttribute("data-percentage"));
       entry.target.style.width = percentage + "%";
       // Stop observing the element once the animation has started
-      observer.unobserve(entry.target);
+      // observer.unobserve(entry.target);
     } else {
       // Reset the width to 0 when the element is not in the viewport
       entry.target.style.width = 0 + "%";
